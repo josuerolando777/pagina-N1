@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    
+}
+body{
+    background-color: rgb(173, 173, 173);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+.titulo h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    padding-top: 12px;
+
+}
+.enlaces a{
+    text-decoration: none;
+    color: rgb(48, 38, 38);
+    display: block;
+    background-color: aquamarine;
+    border-radius: 9px;
+    padding: 5px;
+    margin-left: 60px;
+    margin-right: 1199px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.enlaces .youtube{
+    float: left;
+    margin-left: 1199px;
+    margin-bottom: 30px;
+}
+header .enlaces{
+    padding-bottom: 50px;
+}
+
+header{
+    background-color: rgba(54, 54, 54, 0.735);
+    border-bottom: solid black 6px;
+
+
+}
+
+main{
+background-color: rgba(255, 255, 255, 0.645);
+}
+footer{
+    background-color: rgba(54, 54, 54, 0.735);
+}
+main .cont{
+    font-size: 18px;
+    font-weight: 900;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 30px;
+    padding-right: 50%;
+}
+footer .creador{
+    padding: 25px;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+}
+main .foto img{
+    width: 500px;
+    display: inline-flex;
+    padding-right: 60px;
+    padding-top: 30px;
+    float: right;
+}
